@@ -2,7 +2,7 @@
 % Please edit documentation in R/excel_clipboard.R
 \name{paste_from_excel}
 \alias{paste_from_excel}
-\title{Paste from excel (clipboard)}
+\title{Paste from Excel (via clipboard)}
 \usage{
 paste_from_excel(header = TRUE, ...)
 }
