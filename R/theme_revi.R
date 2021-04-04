@@ -6,6 +6,7 @@
 #' @import hrbrthemes
 
 theme_revi <- function (border=TRUE,...) {
+  hrbrthemes::import_roboto_condensed()
   if (border) {
     hrbrthemes::theme_ipsum_rc(...) +
       theme(axis.title.x = element_text(hjust = 0, vjust=0, colour="darkgrey",size=12,face="bold"))+
